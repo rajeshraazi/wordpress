@@ -1,0 +1,327 @@
+/*
+Theme Name: CT Corporate
+Theme URI: https://codethemes.co/product/ct-corporate/
+Author: Code Themes
+Author URI: https://codethemes.co
+Description: CT Corporate is an incredibly superfine Business WordPress theme. The theme is clean and absolutely user-friendly. One can use it for business, portfolio, blogging or any type of corporate site. CT Corporate is Responsive and flexible based on BOOTSTRAP CSS framework that adapts your website to mobile devices and the desktop or any other viewing environment. CT Corporate is a Cross-Browser Compatible theme that works on all leading web browsers. It has 6 home page design layouts, 3 page templates including default template. It has 4 widgets available (one sidebar, 3 footers widgets), and using the sidebar widget also enables you to make a two-column design. It includes features like Custom Menu, Social Media Options, customizable Call to Action Block(CTA), customizable Banner Slider, customizable Testimonial sections, Multiple site and page layouts, Blog Layout, Logo color settings, footer settings, Custom CSS, translation ready, highly optimized for better performance.
+
+* Mobile-first, Responsive Layout
+* Dynamic Slider
+* Custom Colors
+* Custom Header
+* Social Links
+* Menu Description
+* Post Formats
+* The GPL v3.0 or later license. :) Use it to make something cool.
+
+For more information about CT Corporate please go to https://codethemes.co/product/ct-corporate/
+Version: 1.5.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, portfolio
+Text Domain: ct-corporate
+
+Based on _strap [https://github.com/ptbello/_strap], a mashup of _s [https://github.com/Automattic/_s] and Bootstrap [https://github.com/twitter/bootstrap]
+*/
+
+html,body{
+   height:100%;
+   padding: 0;
+   margin:0;
+}
+body{
+   margin:0;
+   font-family: 'FivoSansModern-Bold';
+   overflow-x:hidden;
+}
+
+/*------ Tiraf Creative page ----------*/
+.main .wrapper header{
+    padding: 8px 0 7px 3%;
+    width: 97%;
+    padding-left: 3%;
+    height:68px;
+}
+.main .wrapper header .logo img{
+   width: 120px;
+}
+.main .wrapper .content h1{
+   margin:12px;
+}
+.main .wrapper .content{
+   position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+.main .wrapper .content iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.main .wrapper .base{
+    text-align:center;
+    padding: 9% 0;
+}
+.main .wrapper .base h1{
+   font-size: 250%;
+   font-weight:bold;
+}
+.main .wrapper .base .subtext1{
+   font-size: 105%;
+   line-height: 22px;
+   font-family: FivoSansModern-Medium;
+}
+.main .wrapper .base .sublabel{
+   margin: 30px auto;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 18px;
+    font-size: 90%;
+    width: 180px;
+    text-transform: uppercase;
+    padding: 4px 18px 2px;
+    font-family: FivoSansModern-Medium;
+}
+.main .wrapper .base .sublink{
+    margin:50px 0;
+}
+.main .wrapper .base .sublink a{
+   text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 105%;
+    margin: 30px auto;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 18px;
+    font-size: 90%;
+    padding: 15px 18px 16px;
+    box-shadow:1px 1px 1px #000;
+    line-height:31px;
+}
+.main .wrapper .base .sublink a:hover{
+   text-decoration: none;
+}
+.main .wrapper .base .sublast{
+   font-size: 96%;
+   font-family: FivoSansModern-Medium;
+    margin: 48px 0 40px;
+}
+.main .wrapper .base .subimg{
+   margin:35px 0;
+}
+.main .wrapper .base .subimg span{
+   margin: 0 25px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.main .wrapper .base .subimg img.one{
+   width: 108px;
+}
+.main .wrapper .base .subimg img.two{
+   width: 120px;
+}
+
+.main .wrapper .bottom{
+   background: #000;
+   margin: 0 auto;
+   padding: 13% 12% 11%;}
+.text-align-center{
+           text-align: center;
+       }
+    .main .wrapper .bottom .flex-container{
+           margin: 20px 0px;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content:center;
+           align-items:stretch;
+           width: 100%;
+           align-content: flex-start;
+       }
+       .main .wrapper .bottom .flex-container .img-content{
+           width:100%;
+       }
+       .main .wrapper .bottom .flex-container .img-content img{
+           width: 80px;
+           margin: 5px 2.5%;
+       }
+       .main .wrapper .bottom .para .line{
+           font-family: FivoSansModern-Medium, sans-serif;
+           font-style: normal;
+           font-size: 14pt;
+           /*letter-spacing: .1em;*/
+           line-height: 1.5em;
+           color:#fff;
+       }
+       
+       .main .wrapper .bottom h2{text-align:center;color: #fff;font-size: 225%;margin: 7% auto;vertical-align: middle;}
+       
+       .main .wrapper .bottom .para .line a{text-decoration:none;color:#fff;}
+
+       @media (max-width:420px){
+           .main .wrapper .bottom .flex-container .img-content img{
+               width: 120px;
+               margin: 5px 1%;
+           }
+           
+           .main .wrapper .base{padding: 9% 6%;}
+           .main .wrapper .base h1{font-size:180%;}
+       }
+
+ .main .wrapper .bottom{
+    background: #000;
+    margin: 0 auto;
+    }
+ .text-align-center{
+            text-align: center;
+        }
+     .main .wrapper .bottom .flex-container{
+            margin: 20px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items:stretch;
+            width: 100%;
+            align-content: flex-start;
+        }
+        .main .wrapper .bottom .flex-container .img-content{
+            width:100%;
+        }
+        .main .wrapper .bottom .flex-container .img-content span{
+            width: 15%;
+            height: auto;
+            display: inline-block;
+        }
+        .main .wrapper .bottom .flex-container .img-content img{
+            width: 60%;
+            margin: 5px 2.5%;
+        }
+        .main .wrapper .bottom .para .line{
+            text-align: center;
+            font-family: FivoSansModern-Medium, sans-serif;
+            font-style: normal;
+            font-size: 14pt;
+            /*letter-spacing: .1em;*/
+            line-height: 1.5em;
+            color:#fff;
+        }
+		
+		.main .wrapper .bottom h2{text-align:center;color: #fff;font-size: 225%;vertical-align: middle;}
+		
+        .main .wrapper .bottom .para .line a{text-decoration:none;color:#fff;}
+        .main .wrapper header .logo-prnt{width: 48%;display: inline-block;}
+        .main .wrapper header .social-follow{display: inline-block;width: 48%;text-align: right;}
+        .main .wrapper header .social-follow a{cursor:pointer;width:22%;padding:0 1%;}
+        .main .wrapper header .social-follow svg{width:30px;height:30px;}
+        .sticky {
+            position: fixed;
+            /* margin-top:0px !important; */
+            top: 0;
+            width: 100%;
+            background: #fff;
+            z-index: 2;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+            /* min-height: 68px; */
+        }
+        .sticky + .content {
+            margin-top: 70px;
+        }
+        @media screen and (min-width: 999px){
+            .main .wrapper .bottom .para br{display:none;}
+        }
+        @media screen and (max-width: 767px){
+        .main .wrapper .bottom h2{margin: 12% auto;}
+            .main .wrapper header{
+                padding: 8px 0 7px 0;
+                width: 100%;
+            }
+            .main .wrapper header .logo-prnt{
+                padding: 15px 2% 0 2%;
+                vertical-align: middle;
+                width:38%;
+            }
+            .main .wrapper header .social-follow{
+                vertical-align: middle;
+                text-align: right;
+                width: 51%;
+                padding: 0 1% 0 2%;
+            }
+            .main .wrapper header .social-follow a{
+                padding: 0 3%;
+            }
+            .main .wrapper header .social-follow a:last-child{padding: 0 0 0 3%;}
+            .sticky{top: -1px;}
+            .main .wrapper .bottom .para{width:100%;margin:0 auto;}
+            .main .wrapper .bottom .para .line{text-align:justify;font-size: 13pt;}
+            .main .wrapper .bottom .para #para3,.main .wrapper .bottom .para #para4{display:inline;}
+        }
+        @media screen and (max-width: 560px) {
+            
+            
+        }
+        @media (max-width:420px){
+            .main .wrapper .bottom .para{width:90%;margin:0 auto;}
+            .main .wrapper .bottom h2{font-size: 195%;}
+            .main .wrapper .bottom .flex-container .img-content span{width:100%;margin:10px 0;}
+            .main .wrapper .bottom .flex-container .img-content img{
+                width: 35%;
+                margin: 5px 1%;
+            }
+            .main .wrapper header .social-follow svg{width:25px;height:25px;}
+        }
+/**
+ * Overriding the existing style file and its rule to make the design as well.
+ *
+ */
+body, h1, h2, h3, h4, h5{color: #000; font-family: 'FivoSansModern-Bold';text-transform: none;}
+.site-brand img {max-height: 70px; width: 120px;}
+#primary.no-sidebar{padding: 1em 0;}
+.home #primary{padding:0;}
+
+
+.home.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#masthead .container{
+    max-width:100% !important;
+}
+
+@media (min-width: 768px) {
+  .home.container {
+    max-width: 100%;
+}
+}
+
+@media (min-width: 992px) {
+  .home.container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home.container {
+    max-width: 100%
+  }
+}
+
+@media (max-width: 767px)
+{
+.site-branding {
+    margin-left: 0px;
+    min-width: 120px;
+}
+
+#masthead .site-branding {margin-left:0px;}
+}
